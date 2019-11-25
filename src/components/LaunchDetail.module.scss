@@ -1,0 +1,10 @@
+.img{
+    height:205px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.thumb{
+    @extend.img;
+    height: 100px;
+    --size: 100%;
+}
